@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f4f4;
+    margin: 0;
+    padding: 0;
+    background-image: url("pexels-lara-jameson-8887189.jpg");
+    bac
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #0f0f0f;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    text-align: center;
+    color: #fffdfd;
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-decoration:underline;
+}
+
+.student-info {
+    background-color: #f4f3f3;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.info-row {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.info-label {
+    color: #0b0101;
+    font-weight: bold;
+    width: 120px;
+}
+
+.info-value {
+    flex-grow: 1;
+    color: #030000;
+}
+.student-info:hover{
+    transform: scale(1.1);
+}

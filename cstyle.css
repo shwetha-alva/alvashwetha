@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #030303;
+    margin: 0;
+    padding: 0;
+    background-image: url("pexels-lara-jameson-8887189.jpg");
+    background-image: auto;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #0d0c0c;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #fefafa;
+    text-decoration:underline;
+}
+
+.contact-info {
+    margin-bottom: 20px;
+}
+
+.contact-info p {
+    margin: 10px 0;
+    font-size: 18px;
+    color: #f4efef;
+}
+
+.contact-info strong {
+    font-weight: bold;
+    color: #fafafa;
+    
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    padding: 10px;
+    margin-bottom: 20px;
+    border:#f7f2f2;
+    border-radius: 5px;
+    background-color: #ede6e6;
+}
+
+textarea {
+    height: 130px;
+}
+
+button[type="submit"] {
+    padding: 12px 20px;
+    background-color: #f1f1f7;
+    color: #0e0d0d;
+    border: none;
+    border-radius: 12px;
+    cursor:pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #eff1f1;
+}
+
+button[type="submit"]:focus {
+    outline: none;
+}
+button :hover{
+    border:1px solid #fffcfc;
+}
